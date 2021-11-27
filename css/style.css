@@ -1,0 +1,133 @@
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html, body{
+    font-family: 'Roboto', sans-serif;
+    line-height:1.5;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+
+}
+.bg-dark{
+    background-color: #252A34;
+    color: #fff;
+
+
+}
+
+.text-primary{
+    color: #FF2E63;
+}
+/* navbar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 88%;
+}
+#navbar .logo img{
+    width: 80px;
+
+}
+#navbar ul{
+list-style: none;
+display: flex;
+}
+#navbar ul li a{
+color: #fff;
+padding: 1.5rem;
+font-size: 1.5rem;
+}
+#navbar ul li a:hover{
+    background-color: #88D9D6;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.text-centre{
+    text-align: center;
+}
+.heading{
+font-size: 5rem;
+    text-transform: uppercase;
+padding: 2rem;
+}
+.btn{
+background-color: #88D9D6;
+    color: #fff;
+    padding: 0.8rem 1.5rem ;
+    border-radius: 0.7rem;
+}
+.btn:hover{
+    background-color: #FF2E63;
+}
+#showcase{
+background: #252A34 url("../images/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+
+
+
+}
+#showcase .show-case-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.6);
+}
+.heading-about{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    padding: 2rem;
+
+}
+.light{
+    background-color: #EAEAEA;
+    color: #252A34;
+}
+#about .container .aboutcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+#about .container .aboutcontainer .para{
+    font-size: 1.5rem;
+}
+#about .container .aboutcontainer img {
+    width: 50%;
+    margin-left: 1rem;
+    border: 5px solid #fff;
+}
+.box-shadow{
+    box-shadow: 0 0 2px #252A34 ;
+}
+.paragraph{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+#cta{
+    background: url("../images/cta.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+#cta .ctacontainer{
+min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+}
